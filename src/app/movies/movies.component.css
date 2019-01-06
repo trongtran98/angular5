@@ -1,3 +1,12 @@
+.selected{
+  background: mediumseagreen !important;
+  color: white;
+}
+
+.parent{
+  display: flex;
+}
+
 .movies {
   background: #3399ff;
   padding: 0.5em 1em 0.5em 1.5em;
@@ -13,21 +22,3 @@
   text-align: left;
 }
 
-.selected{
-  background: mediumseagreen !important;
-  color: white;
-}
-
-.parent{
-  display: flex;
-}
-
-.details{
-  background: mediumseagreen !important;
-  color: white;
-  padding: 0.5em;
-  margin: 1em;
-  text-align: left;
-  max-width: 16em;
-  font-size: 0.875em;
-}
